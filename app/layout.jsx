@@ -1,12 +1,17 @@
 import '@styles/global.css'
+
+export const metadata = {
+    title: "Promptu",
+    description: "An inbuilt prompt for research"
+}
+
 const Layout = ({children}) => {
     return ( 
-        <html>
+        <html lang= "en">
             <body>
-                <div>
-
+                <div className="main">
+                        <div className="gradient"/>
                 </div>
-
                 <main>
                     {children}
                 </main>
